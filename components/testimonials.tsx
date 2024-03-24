@@ -30,7 +30,7 @@ export default function Testimonials() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
             <h2 className="h2 mb-4">Quem comprou aprova</h2>
-            <p className="text-xl text-gray-400">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.</p>
+            <p className="text-xl text-gray-500">Satisfação garantida! Melhores preços do mercado — Entregamos para todo o Brasil com 5% de desconto em compras feitas no pix.</p>
           </div>
 
           {/* Testimonials */}

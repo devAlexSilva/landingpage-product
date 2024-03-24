@@ -8,33 +8,33 @@ import { BlockImagesData } from './blockImages-data'
 const data = [
   {
     srcImage: Image01,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
   {
     srcImage: Image02,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
   {
     srcImage: Image03,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
   {
     srcImage: Image01,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
   {
     srcImage: Image03,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
   {
     srcImage: Image02,
-    oldPrice: 445.00,
-    newPrice: 345.00
+    oldPrice: 460.00,
+    newPrice: 437.00
   },
 ]
 

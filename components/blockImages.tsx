@@ -5,9 +5,42 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { BlockImagesData } from './blockImages-data'
 
+const data = [
+  {
+    srcImage: Image01,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+  {
+    srcImage: Image02,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+  {
+    srcImage: Image03,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+  {
+    srcImage: Image01,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+  {
+    srcImage: Image03,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+  {
+    srcImage: Image02,
+    oldPrice: 445.00,
+    newPrice: 345.00
+  },
+]
+
 export default function BlockImages() {
   return (
-    <section className="bg-white">
+    <section className="bg-white" id='oferta'>
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20 border-t border-gray-800">
 
@@ -20,11 +53,11 @@ export default function BlockImages() {
           {/* Items */}
           <div className="max-w-sm mx-auto grid gap-8 md:grid-cols-2 lg:grid-cols-3 lg:gap-16 items-start md:max-w-2xl lg:max-w-none" data-aos-id-blocks>
             {
-              Array.from([1, 2, 3, 4, 5, 6]).map((item, index) => <BlockImagesData
+              data.map((item, index) => <BlockImagesData
                 key={index}
-                srcImage={Image01}
-                oldPrice={445.00}
-                newPrice={345.00}
+                srcImage={item.srcImage}
+                oldPrice={item.oldPrice}
+                newPrice={item.newPrice}
               />)
             }
 
